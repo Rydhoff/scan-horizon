@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* 🎨 Horizon Theme */
+:root {
+  --color-horizon-red: #A80017;
+  --color-horizon-dark-red: #7A0011;
+  --color-horizon-soft-red: #FDF2F4;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
